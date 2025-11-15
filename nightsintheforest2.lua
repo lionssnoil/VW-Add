@@ -139,7 +139,7 @@ task.spawn(function()
                             end
                             local currentLevel = plr:GetAttribute("_CurrentLevel")
                             if currentLevel then
-                                prefix = prefix .. string.format("<font color='rgb(173,216,230)'>[</font><font color='rgb(255,255,255)'>%s</font><font color='rgb(173,216,230)'>]</font> ", tostring(currentLevel))
+                                prefix = prefix .. string.format("<font color='rgb(120,216,240)'>[</font><font color='rgb(255,255,255)'>%s</font><font color='rgb(173,216,230)'>]</font> ", tostring(currentLevel))
                             end
                             local playerTagValue = plr:FindFirstChild("PlayerTagValue")
                             if playerTagValue and playerTagValue.Value then
